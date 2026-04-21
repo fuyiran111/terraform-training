@@ -1,0 +1,5 @@
+##1. 先创建一个IAM用户：terraform-user和 group：terraform-group，给他必要的权限。
+##   访问EC2的权限，RDS的，S3、IAM、DynamoDB、Route53
+
+##2. 安装aws cli。
+##   通过aws cli 去传入 accesss key id、

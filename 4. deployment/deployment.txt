@@ -1,0 +1,14 @@
+## 进入到main.tf目录下
+terraform init
+## 执行后，terraform初始化安装，会下载main.tf里设置的5.0版本的 provider 
+## 以便在本地 建立好所需环境，
+## 生产环境中 将terraform 安装在远端服务器为最佳。
+
+terraform plan 
+##查看 创建资源的 的参数。
+
+terraform apply
+## 应用 terraform配置的文件，会在AWS 创建指定资源。
+
+terraform destroy
+## 将AWS 指定的资源删除。
