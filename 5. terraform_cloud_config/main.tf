@@ -4,7 +4,6 @@ terraform {
     workspaces {
       name = "terraform-training"
     }
-    region = "ap-east-1"
   }
 }
 
