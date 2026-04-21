@@ -5,7 +5,6 @@ terraform {
       name = "terraform-training"
     }
   }
-}
 
   required_providers {
     aws = {
